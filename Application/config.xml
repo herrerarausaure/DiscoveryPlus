@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id			= "lu.codethree.dplus"
+	version 	= "0.0.2">
+
+	<name>DiscoveryPlus</name>
+	<description>Find and make friends with similar interests or hobbies.</description>
+	<author href="http://www.codecodethree.lu" email="avinash.dwarapu@codethree.lu">Avinash Dwarapu</author>
+
+	<icon src="icons/icon.png" width="57" height="57" default="true" />
+	<icon src="icons/ios-57.png" width="57" height="57" />
+	<icon src="icons/ios-72.png" width="72" height="72" />
+	<icon src="icons/ios-114.png" width="114" height="114" />
+	<icon src="icons/android-36.png" width="36" height="36" />
+	<icon src="icons/android-48.png" width="48" height="48" />
+	<icon src="icons/android-72.png" width="72" height="72" />
+	
+	<gap:splash src="splash/splash.png" width="320" height="480" />
+	<gap:splash src="splash/ios-retina.png" width="640" height="960" />
+	<gap:splash src="splash/ios-ipad-portrait.png" width="768" height="1004" />
+
+	<preference name="orientation" value="portrait" />
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="stay-in-webview" value="true" />
+	<preference name="disable-cursor" value="false" />
+	
+	<feature name="http://api.phonegap.com/1.0/geolocation" />
+	<feature name="http://api.phonegap.com/1.0/network" />
+	<feature name="http://api.phonegap.com/1.0/file" />
+	<feature name="http://plugins.phonegap.com/ChildBrowser/1.0.1" />
+</widget>
